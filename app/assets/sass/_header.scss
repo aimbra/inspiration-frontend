@@ -1,0 +1,73 @@
+header {
+  
+  width: 100%;
+  
+  min: {
+    height: 768px;
+  }
+
+  background-position-x: center;
+
+  background: {
+    image: url('../images/bg-header.png');
+    color: black;
+  }
+
+  figure.logo {
+    width: 10%;
+  }
+
+  section.content {
+    padding: 400px 100px 0px 100px;
+    color: white;
+    h1 {
+      font: {
+        weight: 100;
+      }
+      span {
+        font: {
+          weight: 700;
+        }
+      }
+    }
+
+    h5 {
+      font: {
+        weight: 100;
+        size: 1rem;
+      }
+      letter-spacing: 1rem;
+    }
+
+    h4 {
+      font: {
+        size: 1rem;
+      }
+    }
+    i.fa-play-circle {
+      color: white;
+      font: {
+        size: 7rem;
+      }
+      cursor: pointer;
+
+      &:hover {
+        color: $danger;
+      }
+    }
+
+    div.descriptions {
+      i {
+        font-size: 2rem;
+        padding: 20px;
+      }
+      h4 {
+        font: {
+          size: 1.3rem;
+          weight: 700;
+        }
+        text-transform: uppercase;
+      }
+    }
+  }
+}
