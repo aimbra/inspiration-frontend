@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import 'https://use.fontawesome.com/releases/v5.8.1/css/all.css';
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 The Bootstrap Authors
@@ -9708,8 +9709,112 @@ header section.content div.descriptions h4 {
   text-transform: uppercase;
 }
 
-main section.teachers {
+section.teachers {
   padding: 50px 100px;
+}
+
+section.how-it-works {
+  color: white;
+  padding: 50px;
+  background-image: url("../images/bg-1.png");
+}
+section.how-it-works .card {
+  color: black;
+}
+section.how-it-works .card .card-body {
+  padding: 40px;
+}
+section.how-it-works .card .card-body ul {
+  padding: 10px;
+}
+section.how-it-works .card .card-body ul li {
+  padding: 10px;
+  list-style-type: none;
+}
+section.how-it-works .card .card-body ul li:before {
+  color: #17a2b8;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "";
+  /* FontAwesome Unicode */
+  display: inline-block;
+  margin-left: -1.3em;
+  /* same as padding-left set on li */
+  width: 1.3em;
+}
+section.how-it-works .card .card-body h3 {
+  font-size: 1.5rem;
+}
+
+section.faq {
+  padding: 20px;
+}
+section.faq h2 {
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+section.testemony {
+  color: white;
+  padding: 50px;
+  background-image: url("../images/bg-2.png");
+}
+section.testemony .card {
+  color: black;
+}
+section.testemony .card .card-body {
+  padding: 20px;
+}
+section.testemony .card .card-body h3 {
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+section.testemony .card .card-body p {
+  font-size: 0.8rem;
+  font-style: italic;
+}
+
+section.price table button.btn {
+  font-size: 1rem;
+}
+section.price table tr th:first-child {
+  width: 50%;
+}
+section.price table tr td i.fa-check {
+  color: #17a2b8;
+}
+section.price table tr td i.fa-times {
+  color: #dc3545;
+}
+section.price table tr td.price {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+footer p {
+  font-size: 0.7rem;
+}
+footer .client-area figure.logo-area {
+  width: 20%;
+}
+footer .aimbra-area figure.logo-area {
+  width: 20%;
+}
+footer .zapzap {
+  width: 3%;
+  position: fixed;
+  display: block;
+  bottom: 1%;
+  right: 2%;
+  cursor: pointer;
+}
+footer .zapzap figure img:hover {
+  -webkit-filter: brightness(1.4);
+  -moz-filter: brightness(1.4);
+  -ms-filter: brightness(1.4);
+  -o-filter: brightness(1.4);
+  filter: brightness(1.4);
 }
 
 /*# sourceMappingURL=index.css.map */

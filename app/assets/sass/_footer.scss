@@ -1,0 +1,36 @@
+footer {
+  p {
+    font: {
+      size: 0.7rem;
+    }
+  }
+  .client-area {
+    figure.logo-area {
+      width: 20%;
+    }
+  }
+  .aimbra-area {
+    figure.logo-area {
+      width: 20%;
+    }
+  }
+  .zapzap {
+    width: 3%;
+    position: fixed;
+    display: block;
+    bottom: 1%;
+    right: 2%;
+    cursor: pointer;
+    figure {
+      img {
+        &:hover {
+          -webkit-filter: brightness(1.4);
+          -moz-filter: brightness(1.4);
+          -ms-filter: brightness(1.4);
+          -o-filter: brightness(1.4);
+          filter: brightness(1.4);
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,105 @@
+section.teachers {
+  padding: 50px 100px;
+}
+
+section.how-it-works {
+  color: white;
+  padding: 50px;
+  background: {
+    image: url('../images/bg-1.png');
+  }
+  .card {
+    color: black;
+    .card-body {
+      padding: 40px;
+      ul {
+        padding: 10px;
+        li {
+          padding: 10px;
+          list-style-type: none;
+          &:before {
+            color: $info;
+            font-family: "Font Awesome 5 Free";
+            font-weight: 900;
+            content: "\f00c"; /* FontAwesome Unicode */
+            display: inline-block;
+            margin-left: -1.3em; /* same as padding-left set on li */
+            width: 1.3em;
+          }
+        }
+      }
+      h3 {
+        font: {
+          size: 1.5rem;
+        }
+      }
+    }
+  }
+}
+
+section.faq {
+  padding: 20px;
+  h2 {
+    font: {
+      weight: 300;
+    }
+    text-transform: uppercase;
+  }
+}
+
+section.testemony {
+  color: white;
+  padding: 50px;
+  background: {
+    image: url('../images/bg-2.png');
+  }
+  .card {
+    color: black;
+    .card-body {
+      padding: 20px;
+      h3 {
+        font: {
+          size: 1.4rem;
+          weight: 700;
+        }
+      }
+      p {
+        font: {
+          size: 0.8rem;
+          style: italic;
+        }
+        
+      }
+    }
+  }
+}
+
+section.price {
+  table {
+    button.btn {
+      font-size: 1rem;
+    }
+    tr {
+      th{
+        &:first-child {
+          width: 50%;
+        }
+      }
+      td {
+        i.fa-check {
+          color: $info;
+        }
+        i.fa-times {
+          color: $danger;
+        }
+      }
+      td.price {
+        text-align: center;
+        font: {
+          size: 1.5rem;
+          weight: 700;
+        }
+      }
+    }
+  }
+}

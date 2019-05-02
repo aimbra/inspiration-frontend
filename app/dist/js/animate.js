@@ -18,3 +18,7 @@ animateCSS(
   '.fa-play-circle',
   'pulse'
 );
+
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
